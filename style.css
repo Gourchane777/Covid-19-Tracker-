@@ -1,0 +1,106 @@
+
+body{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#block{
+
+    width: 250px;
+    height: 100vh;
+    background-color: #191a1a;
+    border-right: none;
+}
+
+.h3,.h5{
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.h3{
+    color: #ff416c;
+}
+.h5{
+    margin-bottom:0px ;
+}
+p{
+    font-size: 8px;
+    text-align: center;
+}
+
+.fs-5 {
+    font-size: 8px!important
+}
+
+.fs-6{
+
+    font-size: 11px!important;
+}
+.country{
+
+    cursor: pointer;
+}
+.country:hover{
+    border:1px solid rgba(255, 255, 255, 0.534);
+
+}
+
+#parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: #191a1a4f;
+    position: absolute;
+    z-index: 1;
+
+}
+#modal{
+    width: 55vw;
+    height: 70vh;
+     background-color: #191a1a; 
+    position: absolute;
+    z-index: 2;
+    left: 25%;
+    top:10%;
+    border-radius: 10px;
+}
+
+
+
+
+.p_modal{
+
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.fas {
+    color: white;
+    position: absolute;
+    z-index:2;
+    right: 2%;
+    top: 2%;
+    cursor: pointer;  
+}
+
+.fas:hover{
+
+    color: rgba(255, 255, 255, 0.418);
+    transform: scale(1.2);
+
+}
+.question{
+    color: #007BFF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.back{
+
+    background-color: black;
+
+}
+
